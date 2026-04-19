@@ -1,11 +1,31 @@
 @import url(base.css);
 
-input,
-select,
-textarea {
-  width: 100%;
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  background: #fff;
 }
 
-div {
-  margin: 4px 0px;
+label {
+  width: 90px;
+  padding-top: 30px;
+  color: #555;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #bbb;
+  border-radius: 0;
+  font-size: 0.9rem;
+}
+
+button {
+  margin-top: 1rem;
+  background: #eee;
+  border: 1px solid #999;
+  cursor: pointer;
+  font-size: 0.85rem;
 }

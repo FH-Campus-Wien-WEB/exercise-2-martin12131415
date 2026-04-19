@@ -10,7 +10,7 @@ img {
 }
 
 article {
-  background-color: lightgray;
+  /*background-color: lightgray;*/
   border-radius: 16px;
   padding: 16px;
   margin: 2vw;
@@ -38,4 +38,95 @@ select {
 
 textarea {
   width: 100%;
+}
+
+img{
+  border-radius: 5px;
+}
+
+.movie-container {
+  border: darkgray solid 1px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 700px;
+  min-width: 320px;
+  width: 80%;
+  color: #000000;
+  box-shadow: 1px 1px 10px lightgray;
+}
+#movie-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-basic-info h1{
+  margin: 0;
+}
+
+.movie-facts {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-facts li{
+  display: inline;
+}
+
+.movie-facts li:after {
+  content: " —";
+}
+.movie-facts li:last-child:after {
+  content: none;
+}
+
+.comma-joined-list li{
+  display: inline-block;
+}
+
+.comma-joined-list li:after {
+  content: ", ";
+  margin-right: 5px;
+}
+.comma-joined-list li:last-child:after {
+  content: none;
+}
+
+.section{
+  display: flex;
+  justify-content: left;
+}
+
+.movie-ratings{
+  /*margin: 10px;*/
+  border-spacing: 0;
+  border-collapse: collapse;
+
+}
+
+.movie-ratings td {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.movie-ratings tr:first-child {
+  color: #555555;
+}
+
+.movie-ratings tr:last-child {
+  font-weight: bold;
+}
+
+.tiled-list {
+  padding: 0;
+}
+
+.tiled-list li{
+  display: inline-block;
+  border: #E0E0E0 solid 1px;
+  border-radius: 20px;
+  padding-block: 2px;
+  padding-inline: 12px;
+  margin-inline: 2px;
 }
